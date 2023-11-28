@@ -251,9 +251,9 @@
     .main-menu nav{
         position: fixed;
         width: 45%;
-        height: 92vh;
+        height: 100vh;
         background: #ffffff;
-        top: 11vh;
+        top: 10vh;
         left: -50%;
         text-align: left;
         transition: .6s;

@@ -251,9 +251,9 @@
     .main-menu nav{
         position: fixed;
         width: 45%;
-        height: 100vh;
+        height: 92vh;
         background: #ffffff;
-        top: 8.7vh;
+        top: 11vh;
         left: -50%;
         text-align: left;
         transition: .6s;
@@ -490,7 +490,11 @@
     }
 
     .services-2 .window .block .bricks .font ul li{
-        font-size: 11px;
+        margin: 0px 10px;
+    }
+
+    .services-2 .window .block .bricks img{
+        width: 8rem;
     }
 
 

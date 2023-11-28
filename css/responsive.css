@@ -1,0 +1,540 @@
+@media only screen and (max-width: 1024px){
+    .first-sect .second-sect-a{
+        padding: 1rem 1rem;
+        width: 50%;
+    }
+
+    .first-sect .second-sect-b img{
+        width: 28rem;
+        margin-left: 0rem;
+    }
+
+
+
+
+
+    .about{
+        height: 80vh;
+    }
+
+    .about .qr-code{
+        padding: 1rem 0rem;
+        width: 50%;
+    }
+    
+    .about .qr-code img{
+        width: 30rem;
+        margin: 0rem 0rem;
+    }
+    
+    .about .qr-code h4{
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .about .abt-para{
+        margin-right: 0rem;
+        padding: 2rem 0rem;
+        width: 50%;
+    }
+
+
+
+
+
+
+    .services{
+        padding: 4rem 4rem;
+    }
+
+    .services .flex{
+        width: auto;
+    }
+
+    .services .flex .her{
+        margin-top: 90px;
+        margin-right: 35rem;
+    }
+
+
+
+
+
+
+    .project{
+        display: block;
+        padding: 4rem 0rem;
+    }
+
+
+
+
+
+
+    .services-2{
+        padding: 7rem 0rem;
+    }
+
+    .services-2 .flex{
+        width: auto;
+    }
+
+    .services-2 .flex .her{
+        margin-top: 85px;
+        margin-right: 45rem;
+    }
+
+
+
+
+
+
+    footer .font-flex h3{
+        margin: 0rem 0rem;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 770px){
+    li, a, button, p{
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .first-sect .second-sect-a{
+        display: block;
+        padding: 0rem 0em;
+        width: 40%;
+    }
+
+    .second-sect-a .third-sect h1{
+        font-size: 2.5rem;
+    }
+
+    .first-sect .second-sect-b{
+        width: 50%;
+    }
+
+    .first-sect .second-sect-b img{
+        width: 23rem;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+
+
+
+
+
+    .about .qr-code{
+        padding: 1rem 1rem;
+        text-align: center;
+        width: 50%;
+    }
+
+    .about .qr-code img{
+        margin: 0rem 0rem;
+    }
+
+    .about .qr-code h4{
+        margin-left: 0rem;
+    }
+
+    .about .abt-para{
+        margin-right: 0rem;
+        display: block;
+        padding: 1rem 0rem;
+        width: 50%;
+    }
+
+    .about .abt-para p{
+        margin: 20px 0 40px;
+        font-size: 15px;
+    }
+
+    .about .abt-para .flex .her{
+        margin-top: 50px;
+        margin-right: 10rem;
+    }
+
+
+
+
+
+
+    .services{
+        padding: 1rem 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .services .list .list-1 .no-name{
+        width: 20%;
+        padding-top: 1rem;
+    }
+
+    .services .list .list-1 .no-name h1{
+        margin: 0px 5%;
+        font-size: 1rem;
+    }
+
+    .services .list .list-1 p{
+        width: 60%;
+        margin: 15px 0px;
+        margin-left: 5rem;
+        font-size: 0.7rem;
+    }
+
+    .services .flex{
+        width: auto;
+    }
+
+    .services .flex .her{
+        margin-top: 90px;
+        margin-right: 25rem;
+    }
+
+
+
+
+
+
+    .project{
+        padding: 3rem 8rem;
+    }
+
+    .project .flex{
+        width: 100%;
+    }
+
+
+
+
+
+
+    .services-2{
+        padding: 7rem 4rem;
+        display: block;
+    }
+
+    .services-2 .flex{
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .services-2 .flex .her{
+        margin-top: 85px;
+        margin-right: 22rem;
+    }
+
+    .services-2 .window .block{
+        flex-direction: column;
+    }
+
+    .services-2 .window .block .bricks{
+        margin: 1rem 0rem;
+        width: auto;
+    }
+
+    footer .font-flex{
+        margin: 4rem 0rem;
+        padding: 1rem 0rem;
+        font-size: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 430px){
+    /*Navbar area*/
+    .main-menu nav{
+        position: fixed;
+        width: 45%;
+        height: 92vh;
+        background: #ffffff;
+        top: 11vh;
+        left: -50%;
+        text-align: left;
+        transition: .6s;
+    }
+
+    .main-menu nav ul li{
+        display: block;
+        color: black;
+        margin: 1rem 0rem;
+        line-height: 30px;
+    }
+
+    #icon{
+        visibility: visible;
+    }
+
+    .main-menu nav.show{
+        left: 0;
+    }
+
+    .button{
+        padding: 6px 8px;
+        background-color: aliceblue;
+        border: Solid 2px black;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 10px;
+        transition: all 0.3s ease 0.2s;
+    }
+    /*Navbar area*/
+
+
+
+
+
+
+    .first-sect{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .first-sect .second-sect-a{
+        padding: 20px 10px;
+        width: 100%;
+    }
+
+    .first-sect .second-sect-b{
+        width: 100%;
+    }
+
+    .first-sect .second-sect-b img{
+        width: 17.6rem;
+        margin-left: 1rem;
+    }
+
+    .first-sect .second-sect-a .button-sect{
+        padding: 20px 10px;
+        display: flex;
+    }
+
+
+
+
+
+
+    .about{
+        flex-direction: column;
+        height: 130vh;
+    }
+
+    .about .qr-code{
+        display: block;
+        padding: 0rem 0rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about .qr-code img{
+        width: auto;
+        margin: 0rem 0rem;
+    }
+    
+    .about .qr-code h4{
+        color: #000000a2;
+        text-align: center;
+    }
+
+    .about .abt-para{
+        width: 100%;
+        margin-right: 0rem;
+        padding: 10px 20px;
+        margin-bottom: 10rem;
+    }
+    
+    .about .abt-para p{
+        font-size: 15px;
+    }
+
+    .about .abt-para .flex .her{
+        margin-top: 50px;
+        margin-right: 1rem;
+    }
+
+
+
+
+
+
+    .services{
+        padding: 1rem 0.5rem;
+        display: block;
+    }
+
+    .services .flex{
+        display: flex;
+        width: 100%;
+    }
+
+    .services .flex h1{
+        font-size: 1.5rem;
+    }
+
+    .services .flex .her{
+        margin-top: 70px;
+        margin-right: 7rem;
+    }
+
+    .services .list .list-1{
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+    }
+
+    .services .list .list-1 .no-name{
+        width: auto;
+        padding-top: 1rem;
+    }
+
+    .services .list .list-1 .no-name no{
+        font-size: 0.9rem;
+    }
+
+    .services .list .list-1 .no-name h1{
+        font-size: 0.7rem;
+    }
+
+    .services .list .blue .no-name no{
+        font-size: 0.9rem;
+    }
+
+    .services .list .list-1 .no-name on{
+        font-size: 0.9rem;
+    }
+
+    .services .list .blue .no-name h1{
+        font-size: 0.7rem;
+    }
+
+    .services .list .list-1 p{
+        margin: 10px 0px;
+        font-size: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .services .list .list-1 i{
+        height: 2rem;
+        width: 2rem;
+        margin: 20px 20px;
+    }
+
+
+
+
+
+
+    .project{
+        display: block;
+        padding: 4rem 0rem;
+        background: #6344C6;
+        color: #ffffff;
+    }
+
+    .project .flex{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0rem 0rem;
+    }
+
+    .slide-div{
+        width: 109%;
+    }
+
+    .project i{
+        height: 1.4rem;
+        width: 1.4rem;
+        padding: 1px 2px;
+        border-radius: 3rem;
+        margin: 12rem 0rem;
+    }
+
+    .project .slide-div .java-script .slide img{
+        width: 21rem;
+    }
+
+
+
+
+
+
+    .services-2{
+        padding: 1rem 0rem;
+    }
+
+    .services-2 .flex{
+        width: auto;
+        padding-left: 0rem;
+    }
+
+    .services-2 .flex .her{
+        margin-top: 85px;
+        margin-right: 3rem;
+    }
+
+    .services-2 .window .block{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .services-2 .window .block .bricks{
+        margin: 1rem 0rem;
+        padding: 10px 0px;
+        width: auto;
+    }
+
+    .services-2 .window .block .bricks .font ul li{
+        font-size: 11px;
+    }
+
+
+
+
+
+
+    footer{
+        height: 75vh;
+    }
+
+    footer .flex-rec img{
+        width: 6rem;
+        height: 6rem;
+        margin-top: 0rem;
+    }
+
+    footer .flex-rec .font h1{
+        font-size: 1rem;
+    }
+    
+    footer .flex-rec .font p{
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .eta{
+        font-size: 10px;
+    }
+
+    footer .flex-rec .font .icons{
+        margin-top: 2rem;
+    }
+
+    footer .font-flex{
+        margin: 4rem 0rem;
+        padding: 1rem 1rem;
+    }
+    
+    footer .font-flex h3{
+        margin: 0rem 0rem;
+        font-size: 10px;
+    }
+}
+
+

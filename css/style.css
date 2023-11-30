@@ -123,7 +123,7 @@ header .main-menu{
 /*Start About Section*/
 
 .about{
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: space-between;
     background-color: #FFC448;
@@ -462,6 +462,7 @@ footer .font-flex{
 }
 
 footer .font-flex h3{
+    font-size: 1rem;
     margin: 0rem 5rem;
 }
 
